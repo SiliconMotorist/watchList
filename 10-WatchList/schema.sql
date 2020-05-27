@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS moviePlanner_DB;
+
+CREATE DATABASE moviePlanner_DB;
+
+USE moviePlanner_DB;
+
+CREATE TABLE plan (
+  id INTEGER AUTO_INCREMENT NOT NULL,
+  movie VARCHAR(200) NOT NULL,
+  PRIMARY KEY (id)
+);
